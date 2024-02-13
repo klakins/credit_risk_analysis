@@ -1,4 +1,5 @@
-# credit_risk_analysis
+# credit_risk_analysis (in progress)
+
 This repository contains a comprehensive credit risk analysis conducted by me. The repository presents a credit risk analysis that leverages data from Kaggle. 
 
 In this project, the primary goal is to develop predictive models using multiple regression and logistic regression to gain insights into the factors influencing loan interest rates and to predict the likelihood of loan default.
