@@ -1,21 +1,17 @@
-# credit_risk_analysis (in progress)
+# Credit Risk Analysis - Data Pre-processing and EDA
 
-This repository contains a comprehensive credit risk analysis conducted by me. The repository presents a credit risk analysis that leverages data from Kaggle. 
+## Overview
+This repository contains a Jupyter notebook that documents the process of data preprocessing, cleaning, and exploratory data analysis (EDA) conducted on a credit risk dataset found via Kaggle. The goal of this project was to prepare the data  for further analysis, ensuring the integrity and reliability of subsequent predictive modeling.
 
-In this project, the primary goal is to develop predictive models using multiple regression and logistic regression to gain insights into the factors influencing loan interest rates and to predict the likelihood of loan default.
+## Features
+- **Data Cleaning:** Implemented strategies for dealing with missing values, outliers, and anomalies to improve data quality.
+- **Data Transformation:** Performed necessary transformations on the data to make it suitable for analysis, including normalization and encoding categorical variables.
+- **Exploratory Data Analysis (EDA):** Utilized visual and statistical methods to explore the data and gain deeper insights into the distribution of variables and their relationships.
 
-1. Multiple Regression Model for Interest Rate Prediction.
+## Tools Used
+- Pandas: For data manipulation and cleaning.
+- Seaborn and Matplotlib: For visualizing the data and uncovering trends and patterns.
+- NumPy: For numerical computations.
 
-The aim to build a multiple regression model to predict loan interest rates based on various individual characteristics.
-
-The features considered for this model include:
-
-person_age , person_income , person_home_ownership, person_emp_length, loan_intent, loan_amnt, loan_percent_income, cb_person_default_on_file, cb_person_cred_hist_length
-
-2. Logistic Regression Model for Default Prediction
-
-The second objective is to construct a logistic regression model to predict the likelihood of a loan default. The aim is to leverage the same set of features to analyze the characteristics of individuals who are more likely to default on a loan. The target variable for this model is 'loan_status,' indicating whether a loan has defaulted or not.
-
-By exploring and interpreting the coefficients of the logistic regression model, we can identify key factors that significantly impact the likelihood of loan default. This insight can be valuable for risk assessment and decision-making in the lending process.
-
-Through these predictive models, the aim is to provide a data-driven understanding of the factors influencing loan interest rates and the characteristics associated with loan default. The analysis will contribute to informed decision-making in the lending domain.
+## Future Work
+The next phase of this project will focus on expanding the predictive capabilities of the analysis. I plan to implement logistic regression to predict customer behavior, specifically identifying the likelihood of loan default based on the insights gained from the initial data preprocessing and EDA. This predictive model aims to provide a proactive approach for financial institutions to mitigate risk by accurately flagging high-risk profiles before loan approval.
